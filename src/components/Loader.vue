@@ -9,7 +9,10 @@
   width: 80px;
   height: 40px;
   background: #83def1;
-  position: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   overflow: hidden;
 }
 
